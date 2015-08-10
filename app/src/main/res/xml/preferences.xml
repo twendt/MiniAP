@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+    android:key="pref_active"
+    android:title="@string/pref_active"
+    android:summary="@string/pref_active_summ"
+    android:defaultValue="true" />
+    <EditTextPreference
+        android:key="pref_ssid"
+        android:title="@string/pref_ssid"
+        android:summary="@string/pref_ssid_summ"
+        android:defaultValue="MiniAP" />
+    <EditTextPreference
+        android:key="pref_status_url"
+        android:title="@string/pref_status_url"
+        android:summary="@string/pref_status_url_summ"
+        android:defaultValue="http://192.168.0.1/cgi-bin/qcmap_web_cgi" />
+</PreferenceScreen>
