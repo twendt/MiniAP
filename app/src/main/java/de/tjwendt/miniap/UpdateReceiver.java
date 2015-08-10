@@ -9,10 +9,10 @@ import android.net.wifi.WifiManager;
 import android.preference.PreferenceManager;
 
 public class UpdateReceiver extends BroadcastReceiver {
-    WifiManager wifiManager;
+    private WifiManager wifiManager;
     String[] networkTypes = { "0G", "2G", "3G", "4G"};
-    public String tpSsid;
-    public Boolean active;
+    private String tpSsid;
+    private Boolean active;
 
     public UpdateReceiver() {
     }

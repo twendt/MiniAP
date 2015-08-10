@@ -18,19 +18,19 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
-public class StatusUpdater {
+class StatusUpdater {
 
-    NotificationManager notificationMgr;
-    WifiManager wifiManager;
-    String[] networkTypes = { "0G", "2G", "3G", "4G"};
-    Context context;
-    public String networkName = "";
-    public String signalStrength = "";
-    public String batteryState = "";
-    public String jsonStr = "";
-    public String statusUrl;
-    public String tpSsid;
-    public Boolean active;
+    private NotificationManager notificationMgr;
+    private WifiManager wifiManager;
+    private String[] networkTypes = { "0G", "2G", "3G", "4G"};
+    private Context context;
+    private String networkName = "";
+    private String signalStrength = "";
+    private String batteryState = "";
+    private String jsonStr = "";
+    private String statusUrl;
+    private String tpSsid;
+    private Boolean active;
 
     public StatusUpdater(Context context) {
         this.context = context;

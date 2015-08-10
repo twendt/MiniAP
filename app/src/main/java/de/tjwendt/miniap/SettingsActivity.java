@@ -4,9 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 
 public class SettingsActivity extends Activity {
-    public static String KEY_PREF_STATUS_URL = "pref_status_url";
-    public static String KEY_PREF_SSID = "pref_ssid";
-    public static String KEY_PREF_ACTIVE = "pref_active";
+    public static final String KEY_PREF_STATUS_URL = "pref_status_url";
+    public static final String KEY_PREF_SSID = "pref_ssid";
+    public static final String KEY_PREF_ACTIVE = "pref_active";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

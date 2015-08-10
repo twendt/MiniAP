@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-public class StatusAlarms {
+class StatusAlarms {
 
     private AlarmManager alarmMgr;
     private PendingIntent alarmIntent;

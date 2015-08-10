@@ -1,5 +1,5 @@
 package de.tjwendt.miniap;
 
-public interface MyAsyncListener {
+interface MyAsyncListener {
         void onSuccessfulExecute(String result);
 }

@@ -8,7 +8,7 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 
 public class WiFiReceiver extends BroadcastReceiver {
-    WifiManager wifiManager;
+    private WifiManager wifiManager;
 
     public WiFiReceiver() {
 
